@@ -6,7 +6,7 @@ $(function () {
     }
     var dateTime = new Date().toLocaleString();
     //POST to node.js application to count number of visitors
-    $.post("https://095479f8.ngrok.io/visit", {datetime: dateTime}, function(data, status){ });
+    $.post("https://55b3fc7a.ngrok.io/visit", {datetime: dateTime}, function(data, status){ });
     // Get the modal
     var modal = document.getElementById("myModal");
     // Get the modal elements
