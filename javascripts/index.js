@@ -2,6 +2,7 @@ $(function () {
     var isIE = window.ActiveXObject || "ActiveXObject" in window;
     if (isIE) {
         $('.modal').removeClass('fade');
+        alert("Some elements of this site will not work on Internet Explorer.")
     }
     var dateTime = new Date().toLocaleString();
     //POST to node.js application to count number of visitors
@@ -13,7 +14,7 @@ $(function () {
     var captionText = document.getElementById("caption");
     var lastCaption = "";
     // Get image with jquery on click then insert it intothe modal (use its "alt" text as a caption)
-    $("img").click(function () {
+    $(".myImg").click(function () {
       modal.style.display = "block";
       modalImg.src = this.src;
       switch (this.id) {
@@ -22,13 +23,13 @@ $(function () {
           lastCaption = captionText.innerHTML;
           break;
         case "1":
-          modalImg.src = "./images/cnc-optimize-once.gif";
+          modalImg.src = "./images/cnc_b.jpg";
           captionText.innerHTML = "• Constructed using Arduino Uno, 2 old DVD drives, stepper motor, and associated motor drivers (<a class='link' href='./images/cncfull.jpg' target='_blank'>high resolution</a>) <br>• Can draw images or text within a 4cm square area<br>• Uses <a class='link' href='https://en.wikipedia.org/wiki/G-code' target='_blank'>g-code</a>, which is code telling the motors what type of action to perform, produced from <a class='link' href='https://inkscape.org/' target='_blank'>Inkscape</a> and feeds input to Arduino through serial port using <a class='link' href='https://processing.org/' target='_blank'>Processing</a><br>• Video examples of plotting: <a class='link' href='may.html' target='_blank'>May 2019</a>, <a class='link' href='squidward.html' target='_blank'>Squidward</a>, and the <a class='link' href='globe.html' target='_blank'>Earth</a><br>• <a class='link' href='https://github.com/luvaihassanali/arduino_cnc' target='_blank'>GitHub</a><br>";
           lastCaption = captionText.innerHTML;
           break;
         case "2":
-          modalImg.src = "./images/electron-app-optimize-thrice.gif";
-          captionText.innerHTML = "• Constructed using an old laptop running <a class='link' href='https://lubuntu.net/' target='_blank'>lubuntu</a> and <a class='link' href='https://electronjs.org/' target='_blank'>Electron</a> application: open-source framework developed by GitHub to create cross platform desktop applications<br>• Uses JavaScript to query <a class='link' href='http://www.octranspo.com/en/plan-your-trip/travel-tools/developers/' target='_blank'>OC Transpo</a> and <a class='link' href='https://openweathermap.org/api' target='_blank'>OpenWeatherMap</a> API every twenty seconds to update information<br>• Real-time radar built using Arduino which communicates distance of objects detected within 150cm through serial port<br>• Video of display without the radar running in the <a class='link' href='busday.html' target='_blank'> daytime</a> and <a class='link' href='busnight.html' target='_blank'> nighttime</a>";
+          modalImg.src = "./images/bus_pic.jpg";
+          captionText.innerHTML = "• Constructed using an old laptop running <a class='link' href='https://lubuntu.net/' target='_blank'>lubuntu</a> and <a class='link' href='https://electronjs.org/' target='_blank'>Electron</a> application: open-source framework <br>• Uses JavaScript to query <a class='link' href='http://www.octranspo.com/en/plan-your-trip/travel-tools/developers/' target='_blank'>OC Transpo</a> and <a class='link' href='https://openweathermap.org/api' target='_blank'>OpenWeatherMap</a> API every twenty seconds to update information<br>• Option of adding real-time radar built using Arduino which communicates distance of objects detected within 150cm through serial port<br>• Video of display without the radar running in the <a class='link' href='busday.html' target='_blank'> daytime</a> and <a class='link' href='busnight.html' target='_blank'> nighttime</a><br>• Video of display with <a class='link' href='busradar.html' target='_blank'> radar</a> ";
           lastCaption = captionText.innerHTML;
           break;
         case "3":
@@ -48,11 +49,12 @@ $(function () {
           lastCaption = captionText.innerHTML;
           break;
         case "7":
+          modalImg.src = "./images/kettle.jpg"
           captionText.innerHTML = "• Arduino Nano, HC-05 Bluetooth module, and servo motor<br>• Can connect using <a class='link' href='https://play.google.com/store/apps/details?id=Qwerty.BluetoothTerminal&hl=en_CA' target='_blank'>Bluetooth Terminal</a> App from Google Play on Android device or using <a class='link' href='https://linux.die.net/man/1/minicom' target='_blank'>minicom</a> on Linux<br>• Only caveat is that kettle must be placed in a certain position after use<br>• <a class='link' href='https://github.com/luvaihassanali/arduino_code/blob/master/bluetooth_kettle_switch.ino' target='_blank'>GitHub</a><br>";
           lastCaption = captionText.innerHTML;
           break;
         case "8":
-          captionText.innerHTML = "• Arduino Uno, 2 DC motors, L239d motor driver, 2 photoresistors, servo motor, ultrasonic sensor to avoid obstacles and shaded regions<br>• Photoresistors tell car to back out of areas where regions are dimly lit to certain threshold (shaded regions under furniture mostly)<br>• Ultrasonic sensor attatched to servo motor detects objects in front of car by 20 cm then swivels to check surrounding area for next action<br>•<a class='link' href='./images/rccar_gif.gif' target='_blank'>Car in motion</a><br>•<a class='link' href='https://github.com/luvaihassanali/arduino_code/blob/master/rc_car.ino' target='_blank'>GitHub</a><br>";
+          captionText.innerHTML = "• Arduino Uno, 2 DC motors, L239d motor driver, 2 photoresistors, servo motor, ultrasonic sensor to avoid obstacles and shaded regions<br>• Photoresistors tell car to back out of areas where regions are dimly lit to certain threshold (shaded regions under furniture mostly)<br>• Ultrasonic sensor attatched to servo motor detects objects in front of car by 20 cm then swivels to check surrounding area for next action<br>•<a class='link' href='rccar1vid.html' target='_blank'>Car in motion</a><br>•<a class='link' href='https://github.com/luvaihassanali/arduino_code/blob/master/rc_car.ino' target='_blank'>GitHub</a><br>";
           lastCaption = captionText.innerHTML;//   
           break;
         case "9":
