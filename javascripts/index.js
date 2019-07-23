@@ -1,4 +1,4 @@
-$(function () {
+﻿$(function () {
     var isIE = window.ActiveXObject || "ActiveXObject" in window;
     if (isIE) {
         $('.modal').removeClass('fade');
@@ -6,7 +6,7 @@ $(function () {
     }
     var dateTime = new Date().toLocaleString();
     //POST to node.js application to count number of visitors
-    $.post("https://55b3fc7a.ngrok.io/visit", {datetime: dateTime}, function(data, status){ });
+    $.post("https://ea383a37.ngrok.io/visit", {datetime: dateTime}, function(data, status){ });
     // Get the modal
     var modal = document.getElementById("myModal");
     // Get the modal elements
