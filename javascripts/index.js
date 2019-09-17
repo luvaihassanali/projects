@@ -5,8 +5,6 @@
         alert("Some elements of this site will not work on Internet Explorer.")
     }
     var dateTime = new Date().toLocaleString();
-    //POST to node.js application to count number of visitors
-    $.post("https://ea383a37.ngrok.io/visit", {datetime: dateTime}, function(data, status){ });
     // Get the modal
     var modal = document.getElementById("myModal");
     // Get the modal elements
@@ -63,6 +61,10 @@
           break;
         case "10":
           captionText.innerHTML = "• Google Chrome extension which replaces all &lt;img&gt; tags on HTML pages with a different image of <a class='link' href='https://en.wikipedia.org/wiki/Hugo_%22Hurley%22_Reyes' target='_blank'>Hugo Reyes</a> from LOST<br>• Written in JavaScript<br>• <a class='link' href='https://github.com/luvaihassanali/hugo_chrome_extension' target='_blank'>GitHub</a><br>"
+          lastCaption = captionText.innerHTML;
+          break;
+        case "11":
+          captionText.innerHTML = "• <a class='link' href='https://apps.apple.com/ca/app/filter-fun/id1478511423' target='_blank'>App Store Preview</a><br>• <a class='link' href='https://filterfun.fun/' target='_blank'>App Homepage</a><br>• Started this project because I wanted to take videos with my camera while music was playing on the iPhone but the stock app stops music from playing on the speaker when you get into the video camera and then it evolved into a camera which can apply filters to video being taken<br>";
           lastCaption = captionText.innerHTML;
           break;
         case "img01":
