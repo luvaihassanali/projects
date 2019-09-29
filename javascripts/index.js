@@ -68,7 +68,7 @@
         lastCaption = captionText.innerHTML;
         break;
       case "12":
-        captionText.innerHTML = "• ASP.net app to act as live dashbooard for system stats + search page to query computers<br>• Pulls information from System Center Service Manager (SCSM), System Center Configuration Manager (SCCM), McAfee ePolicy Orchestrator (EPO) SQL databases, and Active Directory (AD)<br>• <a class='link' href='https://github.com/luvaihassanali/Security-Dashboard' target='_blank'>GitHub</a><br>"
+        captionText.innerHTML = "• ASP.NET application to act as live dashbooard for system statistics and includes a search page to query computers<br>• Pulls information from System Center Service Manager (SCSM), System Center Configuration Manager (SCCM), McAfee ePolicy Orchestrator (EPO) SQL databases, and Active Directory (AD)<br>• <a class='link' href='https://github.com/luvaihassanali/Security-Dashboard' target='_blank'>GitHub</a><br>"
         lastCaption = captionText.innerHTML;
         break;
       case "img01":
