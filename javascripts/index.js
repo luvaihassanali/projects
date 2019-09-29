@@ -35,7 +35,7 @@
         lastCaption = captionText.innerHTML;
         break;
       case "4":
-        captionText.innerHTML = "• Semester long team project for Object-Oriented Software Eng. course taken at Carleton including weekly progress reports and team meetings<br>• Recreation of <a class='link' href='https://boardgamegeek.com/boardgame/360/quests-round-tableboard' target='_blank'>old board game</a> using <a class='link' href='https://spring.io/' target='_blank'>Spring framework</a> with two main iterations: developing the game and then implementing networking functionality<br>• Follows MVC pattern and uses WebSockets for communication<br>• <a class='link' href='https://github.com/luvaihassanali/springmvc/tree/master/GUIShots' target='_blank'>More screenshots</a><br>• <a class='link' href='https://github.com/luvaihassanali/springmvc' target='_blank'>GitHub</a><br>";
+        captionText.innerHTML = "• Semester long team project for Object-Oriented Software Eng. course taken at Carleton including weekly progress reports and team meetings<br>• Recreation of <a class='link' href='https://boardgamegeek.com/boardgame/360/quests-round-tableboard' target='_blank'>Quest of the Round Table</a> using <a class='link' href='https://spring.io/' target='_blank'>Spring framework</a> with two main iterations: developing the game and then implementing networking functionality<br>• Follows MVC pattern and uses WebSockets for communication<br>• <a class='link' href='https://github.com/luvaihassanali/springmvc/tree/master/GUIShots' target='_blank'>More screenshots</a><br>• <a class='link' href='https://github.com/luvaihassanali/springmvc' target='_blank'>GitHub</a><br>";
         lastCaption = captionText.innerHTML;
         break;
       case "5":
