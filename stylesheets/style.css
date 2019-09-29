@@ -132,6 +132,10 @@ body {
     .badge {
       width: 100%;
     }
+
+    body {
+      padding: 0px;
+    }
   }
   .collapsible {
     background-color: #dbdbdb;
