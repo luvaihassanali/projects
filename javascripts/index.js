@@ -71,6 +71,10 @@
         captionText.innerHTML = "• ASP.NET application to act as live dashbooard for system statistics and includes a search page to query computers<br>• Pulls information from System Center Service Manager (SCSM), System Center Configuration Manager (SCCM), McAfee ePolicy Orchestrator (EPO) SQL databases, and Active Directory (AD)<br>• <a class='link' href='https://github.com/luvaihassanali/Security-Dashboard' target='_blank'>GitHub</a><br>"
         lastCaption = captionText.innerHTML;
         break;
+      case "13":
+        captionText.innerHTML = "• Arduino Uno, 2 DC motors, L239d motor driver, tank chasis, ESP8266 WiFi module, ESP32 Wifi Camera (<a class='link' href='./images/tank.jpg' target='_blank'>high resolution</a>) <br>• Uses Electron application to control tank/display video stream<br>• Does not work on tiled surface (bands slip off axel when turning) s- carpets like flooring needed <br>•<a class='link' href='https://github.com/luvaihassanali/arduino_code/tree/master/remote-control' target='_blank'>GitHub</a><br>";
+        lastCaption = captionText.innerHTML;
+        break;
       case "img01":
         captionText.innerHTML = lastCaption;
       case "img02":
