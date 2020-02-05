@@ -72,7 +72,7 @@
         lastCaption = captionText.innerHTML;
         break;
       case "13":
-        captionText.innerHTML = "• Arduino Uno, 2 DC motors, L239d motor driver, tank chasis, ESP8266 WiFi module, ESP32 Wifi Camera (<a class='link' href='./images/tank.JPG' target='_blank'>high resolution</a>) <br>• Uses Electron application to control tank/display video stream<br>• Does not work on tiled surface (bands slip off axel when turning) - carpet flooring needed <br>•<a class='link' href='https://github.com/luvaihassanali/arduino_code/tree/master/remote-control' target='_blank'>GitHub</a><br>";
+        captionText.innerHTML = "• Arduino Uno, 2 DC motors, L239d motor driver, tank chasis, ESP8266 WiFi module, ESP32 Wifi Camera (<a class='link' href='./images/tank.JPG' target='_blank'>high resolution</a>) <br>• Uses Electron application to control tank/display video stream - colored buttons adjust RBG light on front of tank<br>• Does not work on tiled surface (bands slip off axel when turning) - carpet flooring needed <br>•<a class='link' href='https://github.com/luvaihassanali/arduino_code/tree/master/remote-control' target='_blank'>GitHub</a><br>";
         lastCaption = captionText.innerHTML;
         break;
       case "img01":
