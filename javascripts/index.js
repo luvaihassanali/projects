@@ -64,7 +64,7 @@
         lastCaption = captionText.innerHTML;
         break;
       case "11":
-        captionText.innerHTML = "• <a class='link' href='https://apps.apple.com/ca/app/filter-fun/id1478511423' target='_blank'>App Store Preview</a><br>• <a class='link' href='https://filterfun.fun/' target='_blank'>App Homepage</a><br>• Started this project because I wanted to take videos with my camera while music was playing on the iPhone but the stock app stops music from playing on the speaker when you get into the video camera and then it evolved into a camera which can apply filters to video being taken<br>";
+        captionText.innerHTML = "• <a class='link' href='https://apps.apple.com/ca/app/filter-fun/id1478511423' target='_blank'>App Store Preview</a><br>";
         lastCaption = captionText.innerHTML;
         break;
       case "12":
